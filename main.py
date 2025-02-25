@@ -48,4 +48,4 @@ while attempts < max_attempts:
         print(Fore.GREEN + "Congratulations! You've guessed the word:" + Style.RESET_ALL, word)
         break
 else:
-    print(Fore.RED + "Sorry, you've run out of attempts. The word was:" + Style.RESET_ALL, word)
+    print(Fore.RED + "Sorry, you've run out of attempts. The word actually was:" + Style.RESET_ALL, word)
